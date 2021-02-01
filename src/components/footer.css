@@ -1,0 +1,58 @@
+.footer {
+  color: #bbb;
+}
+@media only screen and (max-width: 992px) {
+  .footer-item {
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .footer-title {
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  .fa-chevron-down {
+    transform: rotate(0deg);
+    transition: transform 0.2s linear;
+  }
+
+  .fa-chevron-down.open {
+    transform: rotate(180deg);
+    transition: transform 0.2s linear;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .footer-item {
+    border: none;
+  }
+  .footer-title {
+    border: none;
+  }
+}
+
+.footer-desc {
+  font-size: 0.7rem;
+}
+
+.footer-section {
+  font-size: 1.4rem;
+  font-style: italic;
+}
+
+.footer-icon {
+  font-size: 1.8rem;
+}
+
+.footer-icon:hover {
+  border: 1px solid royalblue !important;
+}
+.footer h5 {
+  font-size: 0.9rem;
+}
+.payment-pic {
+  width: 66px;
+  height: 46px;
+}
+.norton-img {
+  width: 90px;
+}

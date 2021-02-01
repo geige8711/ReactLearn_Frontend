@@ -1,0 +1,50 @@
+.notification-area {
+  background: var(--clr-white);
+  box-shadow: var(--dark-shadow);
+  position: absolute;
+  top: 4rem;
+  right: 0rem;
+  z-index: 3;
+  width: 21rem;
+  border-radius: var(--radius);
+}
+@media only screen and (max-width: 576px) {
+  .notification-area {
+    width: 100%;
+    left: 0rem !important;
+  }
+  .notification-tab-container {
+    width: 24rem !important;
+  }
+}
+
+.notification-tab-container {
+  position: relative;
+  width: 16rem;
+  height: 1.7rem;
+  overflow: hidden;
+}
+.notification-tab {
+  position: absolute;
+  left: 0rem;
+  width: 24rem;
+  transition: 0.6s ease;
+}
+.notification-tabItem {
+  width: 8rem;
+}
+.notification-icon {
+  width: 3rem;
+  height: 3rem;
+  background-color: red;
+}
+.notification-item:hover {
+  background-color: #e6f7ff;
+}
+.notification-item {
+  cursor: pointer;
+}
+.comment-avatar {
+  width: 3rem;
+  height: 3rem;
+}

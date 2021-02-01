@@ -1,0 +1,46 @@
+.admin-header {
+  height: 4.4rem;
+}
+.toggle-icon:hover {
+  background-color: #eee;
+  cursor: pointer;
+}
+.fa-angle-double-right {
+  transform: rotate(0deg);
+  transition: transform 0.2s linear;
+}
+
+.fa-angle-double-right.open {
+  transform: rotate(180deg);
+  transition: transform 0.2s linear;
+}
+.avatar-pic {
+  width: 2rem;
+  height: 2rem;
+}
+.fa-search {
+  cursor: pointer;
+}
+.search-input:focus {
+  outline: none;
+}
+.search-input {
+  width: 12rem;
+}
+.navbar-bell-icon {
+  color: var(--mainBlack);
+  position: relative;
+}
+.navbar-bell-icon:hover {
+  background-color: #eee;
+}
+.message-items {
+  color: var(--mainWhite);
+  position: absolute;
+  top: 15%;
+  right: 15%;
+  padding: 0.2rem 0.4rem;
+  background: var(--mainYellow);
+  font-size: 0.7rem;
+  border-radius: 49%;
+}

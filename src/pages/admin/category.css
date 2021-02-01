@@ -1,0 +1,5 @@
+.category-input:focus {
+  outline: none !important;
+  border-width: 0 0 2px !important;
+  border-color: green !important;
+}

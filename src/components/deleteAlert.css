@@ -1,0 +1,27 @@
+.delete-confirm-dialog {
+  border-radius: 1rem;
+  background-color: #ffcccb;
+}
+
+@media only screen and (max-width: 576px) {
+  .delete-confirm-dialog {
+    width: 20rem !important;
+    height: 10rem !important;
+  }
+  .alert-button {
+    width: 5rem !important;
+    height: 2rem !important;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .delete-confirm-dialog {
+    width: 25rem !important;
+    height: 12rem !important;
+    font-size: 1.2rem;
+  }
+  .alert-button {
+    width: 5rem !important;
+    height: 2rem !important;
+  }
+}

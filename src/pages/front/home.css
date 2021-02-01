@@ -1,0 +1,128 @@
+.result-area {
+  min-height: 100vh;
+}
+.filter-title {
+  position: relative;
+}
+.clear-fliter {
+  position: absolute;
+  left: 0;
+  background-color: rgba(188, 161, 204, 0.5);
+  font-size: 0.7rem;
+}
+.horizontal-line {
+  height: 0.1rem;
+  width: 65%;
+  background-color: gray;
+}
+.radio {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 50px;
+}
+.radio__input {
+  display: none;
+}
+.radio__radio {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 0.1rem solid #999;
+  border-radius: 50%;
+  box-sizing: border-box;
+  padding: 0.3rem;
+}
+
+.radio__radio::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background: #009879;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: transform 0.15s;
+}
+
+.radio__input:checked + .radio__radio::after {
+  transform: scale(1);
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.checkbox-container label {
+  cursor: pointer;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.checkbox-container input[type="checkbox"] {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-container label::before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.2rem;
+  border: 0.1rem solid black;
+}
+
+.checkbox-container label:hover::before,
+.checkbox-container input[type="checkbox"]:hover + label::before {
+  background-color: #009879;
+}
+
+.checkbox-container input[type="checkbox"]:checked + label::before {
+  content: "\002713";
+  background-color: #009879;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.price-field {
+  position: relative;
+}
+.price-filter {
+  position: absolute;
+  font-size: 0.7rem;
+}
+.price-input {
+  border: 0.1rem solid #aaa;
+}
+.price-input:focus {
+  border: 0.1rem solid #888;
+  outline: 0.1rem solid #888;
+}
+.input-range {
+  box-sizing: border-box !important;
+}
+.input-range__label {
+  display: none;
+}
+.input-range__slider {
+  background-color: #41173f !important;
+  border: 1px solid #41173f !important;
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  top: -0.2rem !important;
+}
+.input-range__track--background {
+}
+.input-range__track {
+  background-color: #ccc !important;
+  height: 0.2rem !important;
+}
+.input-range__track--active {
+  background-color: #41173f !important;
+  opacity: 0.5;
+}

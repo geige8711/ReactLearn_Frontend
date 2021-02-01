@@ -1,0 +1,25 @@
+.item-header:hover {
+  color: white;
+}
+.item-header {
+  position: relative;
+  height: 3.5rem;
+  cursor: pointer;
+}
+.item-submenu {
+  position: absolute;
+  left: 5.1rem;
+  top: 0rem;
+  z-index: 10;
+  width: 15rem;
+}
+.menu-item {
+  background-color: #001529;
+}
+.menu-item:hover {
+  color: white;
+}
+
+.menu-item.active {
+  background-color: #1890ff;
+}

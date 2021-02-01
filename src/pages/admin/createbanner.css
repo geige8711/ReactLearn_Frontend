@@ -1,0 +1,55 @@
+@media only screen and (max-width: 576px) {
+  .banner-pic {
+    width: 16rem;
+    height: 9rem;
+    background-color: #fff;
+    font-size: 2rem;
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+}
+@media only screen and (min-width: 576px) {
+  .banner-pic {
+    width: 25rem;
+    height: 14.1rem;
+    background-color: #fff;
+    font-size: 2rem;
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .banner-pic {
+    width: 25rem;
+    height: 14.1rem;
+    background-color: #fff;
+    font-size: 2rem;
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .banner-pic {
+    width: 25rem;
+    height: 14.1rem;
+    background-color: #fff;
+    font-size: 2rem;
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .banner-pic {
+    width: 25rem;
+    height: 14.1rem;
+    background-color: #fff;
+    font-size: 2rem;
+    color: #aaa;
+    cursor: pointer;
+    border-radius: 0.5rem;
+  }
+}

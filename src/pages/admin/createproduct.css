@@ -1,0 +1,8 @@
+.product-secondary-pic {
+  width: 5rem;
+  height: 5rem;
+  background-color: #fff;
+  font-size: 2rem;
+  color: #aaa;
+  cursor: pointer;
+}

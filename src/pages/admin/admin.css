@@ -1,0 +1,35 @@
+.admin-body {
+  background-color: #f0f2f5;
+  min-height: 86vh;
+}
+.sidebar-panel {
+  background-color: #001529;
+  transition: 0.2s ease;
+}
+
+@media only screen and (max-width: 768px) {
+  .sidebar-panel {
+    position: absolute;
+    top: 0rem;
+    left: -20rem;
+    z-index: 100;
+    transition: var(--transition);
+  }
+  .sidebar-panel.show {
+    position: absolute;
+    top: 0rem;
+    left: 0rem !important;
+    z-index: 100;
+    transition: var(--transition);
+  }
+
+  .modal-grey {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}

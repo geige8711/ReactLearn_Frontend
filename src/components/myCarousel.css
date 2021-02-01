@@ -1,0 +1,12 @@
+.img-carousel {
+  height: 50vh !important;
+}
+.carousel-icon {
+  font-size: 2rem;
+}
+.carousel-indicators li {
+  background-color: #eee;
+  width: 0.8rem;
+  height: 0.8rem;
+  border-radius: 100%;
+}

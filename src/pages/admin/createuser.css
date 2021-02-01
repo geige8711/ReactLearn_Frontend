@@ -1,0 +1,13 @@
+.user-profile-pic {
+  width: 10rem;
+  height: 10rem;
+  background-color: #fff;
+  font-size: 5rem;
+  color: #aaa;
+  cursor: pointer;
+}
+.create-user-form {
+  border-radius: 1rem;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #89aae6, #ac80a0);
+}

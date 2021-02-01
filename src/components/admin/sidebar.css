@@ -1,0 +1,38 @@
+.sidebar {
+  min-height: 100vh;
+}
+.sidebar-header {
+  background-color: #002140;
+  min-height: 4.4rem;
+}
+.logo {
+  font-size: 2rem;
+}
+.admin-logo {
+  width: 3rem;
+  height: 3rem;
+}
+.sidebar-body {
+  color: #aaa;
+  font-size: 1rem;
+}
+.menu-item.active {
+  background-color: #1890ff;
+  color: #fff;
+}
+.menu-item.active .item-link {
+  background-color: #1890ff;
+  color: #fff;
+}
+.menu-item:hover .item-link {
+  color: #fff;
+}
+.item-link {
+  color: #aaa;
+}
+.item-link:hover {
+  text-decoration: none;
+}
+.item-header.active {
+  color: #fff;
+}

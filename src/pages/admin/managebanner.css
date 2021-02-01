@@ -1,0 +1,13 @@
+.img-left {
+  width: 24rem;
+  height: 13.5rem;
+}
+.banner-input {
+  border: 0px;
+  background-color: transparent;
+  box-shadow: 0 0 10px #719ece;
+}
+.banner-input:focus {
+  outline: none !important;
+  box-shadow: 0 0 10px #719ece;
+}
